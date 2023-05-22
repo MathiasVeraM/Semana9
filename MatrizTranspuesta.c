@@ -13,7 +13,13 @@ int main(){
     x=filas;
     y=columnas;
     int Matriz[x][y];
-    
+    for(i=0;i<x;i++){
+        for(j=0;j<y;j++){
+            Matriz[i][j]=rand()%101;
+            printf("%d ", Matriz[i][j]);
+        }
+        printf("\n");
+    }
     
     return 0;
 }
