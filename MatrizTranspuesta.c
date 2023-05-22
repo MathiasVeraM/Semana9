@@ -13,6 +13,8 @@ int main(){
     x=filas;
     y=columnas;
     int Matriz[x][y];
+    printf("\t \n");
+    printf("La matriz generada aleatoriamente es: \n");
     for(i=0;i<x;i++){
         for(j=0;j<y;j++){
             Matriz[i][j]=rand()%101;
@@ -20,7 +22,8 @@ int main(){
         }
         printf("\n");
     }
-    printf("\t \t");
+    printf("\t \n");
+    printf("La matriz transpuesta de la anterior es: \n");
     for(i=0;i<x;i++){
         for(j=0;j<y;j++){
             printf("%d ", Matriz[j][i]);
