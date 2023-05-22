@@ -20,6 +20,7 @@ int main(){
         }
         printf("\n");
     }
+    printf("\t \t");
     for(i=0;i<x;i++){
         for(j=0;j<y;j++){
             printf("%d ", Matriz[j][i]);
