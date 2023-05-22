@@ -5,5 +5,15 @@
 #include<time.h>
 int main(){
     srand(time(NULL));
+    int x, y, i, j, filas=0, columnas=0;
+    printf("Por favor ingrese las filas: ");
+    scanf("%d",&filas);
+    printf("Por favor ingrese las columnas: ");
+    scanf("%d",&columnas);
+    x=filas;
+    y=columnas;
+    int Matriz[x][y];
+    
+    
     return 0;
 }
